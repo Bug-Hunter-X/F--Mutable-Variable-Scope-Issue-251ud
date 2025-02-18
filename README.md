@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in F# related to the scope of mutable variables.  When swapping mutable variables within a function, the changes are not reflected outside the function unless you use ref parameters. The `bug.fs` file shows the unexpected behavior, and `bugSolution.fs` provides a corrected version using ref parameters.
